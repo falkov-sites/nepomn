@@ -1,0 +1,6 @@
+.root {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: rgb(255, 132, 0);
+}
