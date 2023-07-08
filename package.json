@@ -6,7 +6,9 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "component": "generate-react component",
+    "page": "generate-react component --type=page"
   },
   "dependencies": {
     "@types/node": "20.3.3",
@@ -18,5 +20,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "generate-react-cli": "^8.3.0",
+    "sass": "^1.63.6"
   }
 }

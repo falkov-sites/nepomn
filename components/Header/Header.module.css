@@ -4,8 +4,19 @@
   align-items: center;
   gap: 40px;
   color: blue;
+  height: 50px;
+  background: #99ccff;
 }
 
 .link{
-  color: red;
+  color: blue;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease 0s;
+  border-radius: 8px;
+}
+
+.link:hover{
+  border-color: blue;
 }

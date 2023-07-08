@@ -1,9 +1,14 @@
-import styles from './About.module.css'
+import { Metadata } from 'next'
+import styles from './about.module.css'
+
+export const metadata: Metadata = {
+  title: 'About | App',
+}
 
 export default function About() {
   return (
     <div className={styles.root}>
-      <h1>This is page About</h1>
+      <h3>выбери подпункт</h3>
     </div>
   )
 }
