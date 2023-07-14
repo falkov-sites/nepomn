@@ -19,7 +19,7 @@
     "page": {
       "customTemplates": {
         "component": "grc_templates/page/page.tsx",
-        "style": "grc_templates/page/TemplateName.module.scss",
+        "style": "grc_templates/page/styles.module.scss",
         "layout": "grc_templates/page/layout.tsx",
         "loading": "grc_templates/page/loading.tsx",
         "error": "grc_templates/page/error.tsx"

@@ -1,14 +1,15 @@
+
 import { Metadata } from 'next'
 import styles from './styles.module.scss'
 
 export const metadata: Metadata = {
-  title: 'templateName',
+  title: 'probafalkov',
 }
 
-export default function TemplateName() {
+export default function Probafalkov() {
   return (
     <div className={styles.root}>
-      <h1>❖ page TemplateName ❖</h1>
+      <h1>❖ page Probafalkov ❖</h1>
     </div>
   )
 }
